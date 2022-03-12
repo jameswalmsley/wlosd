@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gresources>
+	<gresource prefix="/wlosd">
+		<file preprocess="xml-stripblanks">ui/wlosd.ui</file>
+		<file preprocess="to-pixdata">images/volume_muted.png</file>
+		<file preprocess="to-pixdata">images/volume_low.png</file>
+		<file preprocess="to-pixdata">images/volume_medium.png</file>
+		<file preprocess="to-pixdata">images/volume_high.png</file>
+		<file preprocess="to-pixdata">images/mic_muted.png</file>
+		<file preprocess="to-pixdata">images/mic_unmuted.png</file>
+
+		<file preprocess="to-pixdata">images/brightness_low.png</file>
+		<file preprocess="to-pixdata">images/brightness_medium.png</file>
+		<file preprocess="to-pixdata">images/brightness_high.png</file>
+	</gresource>
+</gresources>
+
