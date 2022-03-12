@@ -3,6 +3,7 @@ project('wlosd', 'cpp',
   default_options : ['cpp_std=c++17'])
 
 gtkmm = dependency('gtkmm-3.0')
+gtk_layer_shell = dependency('gtk-layer-shell-0')
 
 if gtkmm.found()
 
@@ -20,7 +21,7 @@ sources = [
 
 executable('wlosd-daemon',
   sources,
-  dependencies: [gtkmm],
+  dependencies: [gtkmm, gtk_layer_shell],
   install: true)
 
 
